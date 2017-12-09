@@ -6,7 +6,7 @@ package test;
 
 class Test {
 	#if (kha_windows || kha_linux || kha_osx)
-	@:functionCode('TwodgeMouse::test();')
+	@:functionCode('Test::test();')
 	public static function test():Void {}
 	#else
 	public static inline function test():Void {
